@@ -98,7 +98,7 @@ body {
     background-color: #cccccc; 
   height: 500px; 
   background-position: center; 
-  background-repeat: no-repeat; 
+  background-repeat: repeat; 
   background-size: cover; 
    }
 /* bullet points next to city history buttons */
