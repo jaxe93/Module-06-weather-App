@@ -100,7 +100,7 @@ document.getElementById("cityName").innerHTML = "City: " + data[0].CityName
 
 async function getLonLat(cityName) {
     var apiKey = "261a264429697f4cacc29d41aac775ac"
-    var url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
+    var url = `HTTPS://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
     return (await fetch(url)).json();
 
 }
@@ -112,7 +112,7 @@ async function getWeather(data) {
     var Lat = data[0].lat
     var Lon = data[0].lon
     var apiKey = "261a264429697f4cacc29d41aac775ac"
-    var url = `https://api.openweathermap.org/data/2.5/forecast?lat=${Lat}&lon=${Lon}&appid=${apiKey}`
+    var url = `HTTPS://api.openweathermap.org/data/2.5/forecast?lat=${Lat}&lon=${Lon}&appid=${apiKey}`
     return (await fetch(url)).json();
     
 }
