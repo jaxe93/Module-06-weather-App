@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1 Id="header">Weather Dashboard!</h1>
+    <div Id="search">
+        
+            <label>
+              Search
+              <input id="searchBar" />
+            </label>
+            <button onclick="search()">City Name?</button>
+          
+        
+        
+    </div>
+
+    <div Id="5day">
+
+    </div>
+     <h3 Id="citiesStored">Search History</h3>
+    <div Id="quickBar">
+      <ul Id="cityHistory">
+        
+      </ul>  
+
+    </div>
+
+    <div Id="weather0">
+            <h2>Todays forcast</h2>
+            <h2 Id="cityName"></h2>
+            <h2 Id="date0">city name / date</h2>
+            <ul Id="data0">
+                <li Id="tempData0">Temp</li>
+                <li Id="humidityData0">Humidity</li>
+                <li Id="windData0">Wind</li>
+                <li Id="emoji0"></li>
+            </ul>
+    </div>
+<br>
+<h1 Id="next5Days">Weather for the next 5 days</h1>
+<br>
+    <div Id="forcasts"  hidden >
+    <div class="dayforcasts" >
+
+        <div Id="weather1" class="dayforcast">
+            <h3 Id="date1">date1</h3>
+            <ul Id="data1">
+                <li Id="tempData1">Temp</li>
+                <li Id="humidityData1">Humidity</li>
+                <li Id="windData1">Wind</li>
+                <li Id="emoji1"></li>
+            </ul>
+    </div>
+
+
+
+
+    <div Id="weather2" class="dayforcast">
+        <h3 Id="date2">date2</h3>
+        <ul Id="data2">
+            <li Id="tempData2">Temp</li>
+            <li Id="humidityData2">Humidity</li>
+            <li Id="windData2">Wind</li>
+            <li Id="emoji2"></li>
+        </ul>
+    </div>
+
+    <div Id="weather3" class="dayforcast">
+        <h3 Id="date3">date3</h3>
+        <ul Id="data3">
+            <li Id="tempData3">Temp</li>
+            <li Id="humidityData3">Humidity</li>
+            <li Id="windData3">Wind</li>
+            <li Id="emoji3"></li>
+        </ul>
+    </div>
+
+    <div Id="weather4" class="dayforcast">
+        <h3 Id="date4">date4</h3>
+        <ul Id="data4">
+            <li Id="tempData4">Temp</li>
+            <li Id="humidityData4">Humidity</li>
+            <li Id="windData4">Wind</li>
+            <li Id="emoji4"></li>
+        </ul>
+    </div>
+
+    <div Id="weather5" class="dayforcast">
+        <h3 Id="date5">date5</h3>
+        <ul Id="data5">
+            <li Id="tempData5">Temp</li>
+            <li Id="humidityData5">Humidity</li>
+            <li Id="windData5">Wind</li>
+            <li Id="emoji5"></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<script src="asset.js"></script>
+</body>
+</html>

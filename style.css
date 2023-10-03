@@ -1,0 +1,108 @@
+#header {
+    background-color: midnightblue;
+    color:antiquewhite;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#next5Days {
+    background-color: midnightblue;
+    color:antiquewhite;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* search block */
+
+#search {
+    color: antiquewhite;
+    display: block;
+    background-color: midnightblue;
+    border: 1px solid antiquewhite;
+    position: left;
+    width: 325px;
+    height: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+}
+
+/* serach history header box */
+
+#citiesStored {
+    color: antiquewhite;
+    display: block;
+    background-color: midnightblue;
+    border: 1px solid antiquewhite;
+    position: relative;
+    width: 325px;
+    height: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+    text-align: center;
+}
+
+/* the current forcast */
+
+#weather0 {
+    color: antiquewhite;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  width: 1000px;
+  height: 300px;
+  padding: 20px;
+  border: 3px solid antiquewhite;    
+  background-color: midnightblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  text-size-adjust: auto;
+}
+/* centers the 5 day forcasts DOM */
+.dayforcasts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    /*five day forcast blocks */
+
+.dayforcast {
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  padding: 20px;
+  border: 1px solid antiquewhite;    
+  background-color: midnightblue;
+  position: relative;
+  /*min-height: 50px;*/
+  background-image: linear-gradient(to bottom right, midnightblue, #4169E1);
+  margin-left: 8px;
+  margin-right: 8px;
+ 
+}
+/* background image */
+body {
+    background-image: url("assets/weatherbackground.jpeg");
+    background-color: #cccccc; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+   }
+/* bullet points next to city history buttons */
+#cityHistory {
+    color:antiquewhite;
+}
+
